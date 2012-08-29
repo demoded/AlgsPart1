@@ -7,7 +7,7 @@ public class Deque<Item> implements Iterable<Item> {
     private int     pFirst = 0;
     private int     pLast = 0;
 
-    public Deque() { // construct an empty deque
+    public Deque() { // construct an empty  deque
         s = (Item[]) new Object[1];
     }
 
