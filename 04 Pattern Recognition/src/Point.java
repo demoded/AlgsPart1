@@ -1,3 +1,4 @@
+//test SmartGit
 import java.util.Comparator;
 
 public class Point implements Comparable<Point> {
