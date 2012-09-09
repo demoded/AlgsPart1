@@ -20,7 +20,7 @@ public class Brute {
             p[i] = new Point(in.readInt(), in.readInt());
 //            p[i].draw();
         }
-        Point z = new Point(0, 0);
+        Point z = new Point(32768, 32768);
         Arrays.sort(p, z.SLOPE_ORDER);
         for (int i = 0; i < p.length-3; i++) {
             for (int j = i+1; j < p.length-2; j++) {
